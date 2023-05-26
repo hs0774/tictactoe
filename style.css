@@ -1,5 +1,21 @@
+.container{
+    display: grid;
+    background-color: rgb(166, 166, 248);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 550px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+}
+.biggercontainer{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+
 /*calculator html
-create a big div in the middle 
 have a div underneath with two buttons 
 one is a clear button, and and another is play again 
 a div on top with two players 
