@@ -51,6 +51,9 @@
      width: 18px;
      display: flex;
      justify-content: center;
+     border: none;
+     border-radius: 50%;
+     background-color: gray;
 }
 .clear,.play-again{
     background-color: rgb(124, 124, 173);
@@ -66,9 +69,13 @@
    background-color: aliceblue;
    width: 80px;
 }
-
+.clear:active,.play-again:active,.x:active{
+    background-color: rgb(123, 180, 17);
+}
+.tic{
+    font-size: 100px;
+}
 /*calculator html
-tic tac toe grid 
 an updated score per game 
 
 
@@ -81,3 +88,5 @@ update display
 winning combos 
 updated score per game 
 one is a clear button, and and another is play again */
+
+
