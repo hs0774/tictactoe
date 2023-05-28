@@ -10,21 +10,24 @@
     width: 550px;
     justify-content: space-around;
 }
-.tac{
-    display: grid;
-    background-color: rgb(166, 166, 248);
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+.toe{
     height: 550px;
     width: 550px;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    background-color: rgb(166, 166, 248);
 }
-.tic{
-    display: flex;
-    justify-content: center;
-    height: 600px;
-    align-items: center;
+.tac1,.tac2,.tac3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#one,#four,#seven {
+    border-left: solid 3px green;
+    border-right: solid 3px green;
+}
+#zero,#one,#two,#three,#four,#five{
+    border-bottom: solid 3px green;
 }
 .bottom-buttons{
     display: flex;
@@ -65,9 +68,7 @@
 }
 
 /*calculator html
-have a div underneath with two buttons 
-one is a clear button, and and another is play again 
-a div on top with two players 
+tic tac toe grid 
 an updated score per game 
 
 
