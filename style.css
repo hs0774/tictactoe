@@ -35,10 +35,17 @@
     justify-content: space-around;
 }
 .winner-modal{
-    width: 150px;
+    width: 225px;
+    height: 100px;
     background-color: aquamarine;
+    position: fixed;
+    top: 38%;
+    left: 42%;
     display: flex;
-    flex-direction: column;
+}
+.winner{
+    display: flex;
+    align-items: center;
 }
 .corner{
   display: flex;
@@ -54,6 +61,7 @@
      border: none;
      border-radius: 50%;
      background-color: gray;
+     padding-left: 4px;
 }
 .clear,.play-again{
     background-color: rgb(124, 124, 173);
@@ -73,20 +81,16 @@
     background-color: rgb(123, 180, 17);
 }
 .tic{
-    font-size: 100px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*calculator html
-an updated score per game 
+.hidden{
+    display: none;
+}
 
 
-Logic:
-things to do to make a tic tac toe game 
-a board 
-x,o
-turn switching 
-update display 
-winning combos 
-updated score per game 
-one is a clear button, and and another is play again */
+
 
 
